@@ -1,7 +1,7 @@
 This is the header to my goddamn README
 =======================================
 
-I don't know what exaclty it is I'm doing
+I don't know what exactly it is I'm doing
 -----------------------------------------
 
 Once upon a time, in a galaxy far far away
