@@ -5,11 +5,10 @@
     <meta charset="utf-8">
   </head>
   <body>
-
-    <div>
-      <a href="index.html">Home</a>
-      <a href="moby_dick.html">Moby-Dick</a>
-      <a href="tags.html">Tags</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: #00f;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00f;">Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00f;">Moby-Dick</a>
     </div>
 
     <header>
@@ -45,14 +44,14 @@
           <th>Purpose</th>
         </tr>
         <tr>
-          <td><code>h1</code>&ndash;<code>h6</code></td>
-          <td>headings</td>
-          <td>include a heading (levels 1 &ndash; 6)</td>
+          <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+          <td style="padding: 10px;">headings</td>
+          <td style="padding: 10px;">include a heading (levels 1 &ndash; 6)</td>
         </tr>
         <tr>
-          <td><code>p</code></td>
-          <td>paragraph</td>
-          <td>include a paragraph of text</td>
+          <td style="padding: 10px;"><code>p</code></td>
+          <td style="padding: 10px;">paragraph</td>
+          <td style="padding: 10px;">include a paragraph of text</td>
         </tr>
         <tr>
           <td><code>table</code></td>
@@ -73,6 +72,27 @@
           <td><code>td</code></td>
           <td>table data</td>
           <td>include a table data cell</td>
+        </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td>div</td>
+          <td>blocks out elements and acts as a wrapper for styling</td>
+        </tr>
+        <tr>
+          <td><code>blockquote</code></td>
+          <td>blockquote</td>
+          <td>sections out a portion of text quoted from another source</td>
+        </tr>
+        <tr>
+          <td><code>header</code></td>
+          <td>header</td>
+          <td>container for header elements or introductory content</td>
+        </tr>
+        <tr>
+          <td><code>ol, ul, li</code></td>
+          <td>ordered list, unordered list, list element</td>
+          <td>creates ordered and unordered lists, and bullet points for list elements, respectively</td>
+        </tr>
       </table>
     </div>
 
@@ -122,8 +142,51 @@
           <td><code>&lt;code&gt;table&lt;/code&gt;</code></td>
           <td><code>table</code></td>
         </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>contains a portion of inline text</td>
+          <td><code>and the &lt;span&gt;universe began to crumble upon itself&lt;/span&gt; and we died</code></td>
+          <td>and the <span style="color: #ee0000;">universe began to crumble upon itself</span> and we died</td>
+        </tr>
       </table>
     </div>
+
+    <div>
+      <h2>Document Tags</h2>
+
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Purpose</th>
+        </tr>
+        <tr>
+          <td><code>html</code></td>
+          <td>HTML</td>
+          <td>Tag for the entire HTML document.</td>
+        </tr>
+        <tr>
+          <td><code>head</code></td>
+          <td>Head</td>
+          <td>Tag for header data, titles and meta-data, etc. not appearing on the webpage.</td>
+        </tr>
+        <tr>
+          <td><code>body</code></td>
+          <td>Body</td>
+          <td>Includes all visible information seen in the HTML webpage.</td>
+        </tr>
+        <tr>
+          <td><code>title</code></td>
+          <td>Title</td>
+          <td>The title of the HTML document, seen in the tabs or windows of browsers.</td>
+        </tr>
+        <tr>
+          <td><code>meta</code></td>
+          <td>Metadata</td>
+          <td>Contains webpage metadata. Important for search engines and record-keeping.</td>
+        </tr>
+      </table>
 
 <!--
     <table>
